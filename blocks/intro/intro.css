@@ -6,8 +6,20 @@
     width: 690px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-device-width: 1279px) {
     .intro {
         margin-left: 48px;
+    }
+}
+
+@media screen and (max-device-width: 1023px){
+    .intro {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-device-width: 767px){
+    .intro {
+        margin-left: 16px;
     }
 }

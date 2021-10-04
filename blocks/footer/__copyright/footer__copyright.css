@@ -9,7 +9,7 @@
     text-align: right;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width: 767px) {
     .footer__copyright {
         margin-left: 0;
         margin-top: 48px;

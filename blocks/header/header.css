@@ -9,13 +9,13 @@
     width: calc(100% - 96px);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-device-width: 1023px) {
     .header {
         width: calc(100% - 48px);
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width: 767px) {
     .header {
         width: calc(100% - 32px);
     }

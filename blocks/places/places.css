@@ -6,14 +6,14 @@
     margin-right: 148px;
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-device-width: 1279px){
     .places {
         margin-left: 48px;
         margin-right: 48px;
     }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-device-width: 1023px){
     .places {
         margin-left: 24px;
         margin-right: 24px;
@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width: 767px) {
     .places {
         margin-right: 0;
         margin-left: 0;
