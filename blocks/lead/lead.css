@@ -1,25 +1,5 @@
-.lead {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 148px;
-    margin-left: 148px;
-    margin-top: 56px;
-}
-
-@media screen and (max-device-width: 1279px) {
-    .lead {
-        margin-left: 48px;
-        margin-right: 48px;
-    }
-}
-
-@media screen and (max-device-width: 1023px) {
-    .lead {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
+@media screen and (max-width: 984px){
+  .lead {
+    max-width: 100%;
+  }
 }
